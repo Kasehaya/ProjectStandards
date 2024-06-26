@@ -1,0 +1,107 @@
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+a {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: revert;
+    margin-bottom: 3px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+body {
+    background-image: url("../public/background.jpg");
+}
+
+.table-light {
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+tbody {
+    text-align: center;
+}
+
+td {
+    border-bottom-style: outset;
+}
+
+#form-button {
+    float: none;
+    margin: auto;
+    display: block;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    /*font-family: Arial, sans-serif;*/
+}
+
+.titulo-login {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.form-login {
+    width: 30%;
+    margin-left: 36%;
+    margin-top: 0;
+}
+
+#button-login {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0;
+    --bs-btn-padding-y: .95rem;
+    --bs-btn-padding-x: .75rem;
+    --bs-btn-font-size: 1.45rem;
+}
+
+#button-register {
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 0;
+    --bs-btn-padding-y: .35rem;
+    --bs-btn-padding-x: .15rem;
+    --bs-btn-font-size: .85rem;
+}
+
+.p-register {
+    margin-left: 27%;
+}
+
+#button-logout {
+    width: 10%;
+    margin-right: -63%;
+    margin-left: 55%;
+}
